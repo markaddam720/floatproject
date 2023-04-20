@@ -11,16 +11,19 @@ p {
     clear: both;
 }
 body {
-    background-color: #faf1e4
+    background-color: #faf1e4;
 }
 
 #header {
     background-color: #eeac49;
     height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .title {
-    float: left;
+
 }
 
 .title h1 {
@@ -31,8 +34,7 @@ body {
     font-size: 15px;
 }
 
-.nav {
-    float: right;
+.nav {;
     padding: 15px;
 }
 
@@ -48,15 +50,20 @@ body {
 #info {
     clear: both;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .boxcontainer {
-    display: inline-block;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .box {
-    float: left;
     border: 1px solid #eeac49;
     width: 250px;
     height: auto;
@@ -78,6 +85,7 @@ body {
 }
 
 .box a {
+    align-items: flex-end;
     background-color: #eeac49;
     display: block;
     margin: 0 10px;
