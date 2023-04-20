@@ -1,0 +1,90 @@
+a, h1, h2, h3, div, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+h1 {
+    clear: both;
+}
+
+p {
+    clear: both;
+}
+body {
+    background-color: #faf1e4
+}
+
+#header {
+    background-color: #eeac49;
+    height: 45px;
+}
+
+.title {
+    float: left;
+}
+
+.title h1 {
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.nav {
+    float: right;
+    padding: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+#info {
+    clear: both;
+    text-align: center;
+}
+
+.boxcontainer {
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.box {
+    float: left;
+    border: 1px solid #eeac49;
+    width: 250px;
+    height: auto;
+    background-color: #ffffff;
+    margin: 50px 5px;
+    border-radius: 5px;
+}
+
+.box h1 {
+    text-align: left;
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
+.box p {
+    text-align: left;
+    margin: 20px 20px;
+    font-size: 15px;
+}
+
+.box a {
+    background-color: #eeac49;
+    display: block;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 5px 0;
+}
